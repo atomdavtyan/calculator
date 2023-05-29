@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+.root{
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+}
+
+.head{
+    color:rgb(78, 77, 77);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.inputfield{
+    font-size: 45px;
+    border-color: black;
+}
+
+
+
+.calculator {
+    width: 250px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(36, 31, 31);
+    
+  }
+  
+  .display {
+    width: auto;
+    height: 5px;
+    padding: 20px;
+    margin-bottom: 19px;
+    font-size: 18px;
+    background-color: white;
+    text-align: right;
+    border-color: black;
+    border-radius: 5px;
+    border-style:groove ;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style:groove ;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .button:active {
+    background-color: #d2d2d2;
+  }
+
+  .button1{
+    background-color: rgb(177, 104, 8);
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style:groove ;
+    border-color: black;
+  }
+
+  .button1:hover{
+    background-color:rgb(178, 146, 20);
+  }
+
+
+
+.displayText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  
+
